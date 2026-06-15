@@ -1,0 +1,8 @@
+CREATE TABLE payments(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+order_id INTEGER,
+amount INTEGER,
+provider TEXT,
+payment_status TEXT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
