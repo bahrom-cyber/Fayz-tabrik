@@ -1,0 +1,6 @@
+CREATE TABLE referrals(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+user_id INTEGER,
+invited_user INTEGER,
+bonus INTEGER DEFAULT 0
+);
