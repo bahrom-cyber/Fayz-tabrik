@@ -1,0 +1,38 @@
+fayz_tabrik_bot/
+
+├── bot.py
+├── config.py
+├── requirements.txt
+├── .env
+│
+├── database/
+│   ├── db.py
+│   └── models.py
+│
+├── handlers/
+│   ├── start.py
+│   ├── order.py
+│   ├── payment.py
+│   ├── referral.py
+│   └── admin.py
+│
+├── keyboards/
+│   ├── reply.py
+│   └── inline.py
+│
+├── states/
+│   └── order_states.py
+│
+├── services/
+│   ├── ai_generator.py
+│   ├── click.py
+│   ├── payme.py
+│   └── statistics.py
+│
+├── media/
+│   ├── videos/
+│   ├── audio/
+│   └── images/
+│
+└── logs/
+└── bot.log
